@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.microservice1.MicroService1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.827 s - in com.example.microservice1.MicroService1ApplicationTests
