@@ -20,6 +20,9 @@ public class ApiGatewayConfiguration {
         return builder.routes()
                 .route(p -> p.path("/")
                         .uri("lb://MICROSERVICE-2"))
+
+                .route(p -> p.path("/class/**")
+                        .uri("lb://ClassService"))
                 .build();
     }
 }
